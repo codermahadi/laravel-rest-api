@@ -6,6 +6,15 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
+<h2>Artisan</h2>
+1. php artisan make:migration create_articles_table --create=articles
+2. php artisan make:seeder AticlesTableSeeder
+3. php artisan make:factory ArticleFactory
+4. php artisan make:model Article
+5. php artisan migrate
+6. 3. php artisan db:seed
+7. php artisan make:controller Article --resource
+8. php artisan make:resource Article
 
 ## About Laravel
 
